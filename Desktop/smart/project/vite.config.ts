@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
   preview: {
     host: "0.0.0.0",                                // required for Render
     port: parseInt(process.env.PORT || "4173"),     // use Render's PORT
-    allowedHosts: ["smart-campus-erp-r16v.onrender.com"], // match your Render domain
+    allowedHosts: ["smart-campus-erp-5hll.onrender.com"], // match your Render domain
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
